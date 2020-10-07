@@ -1323,11 +1323,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #1bbd36;
+  color: #009AAE;
   float: left;
   width: 44px;
   height: 44px;
-  border: 1px solid #1bbd36;
+  border: 1px solid #009AAE;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1351,7 +1351,7 @@ section {
 }
 
 .contact .info:hover i {
-  background: #1bbd36;
+  background: #009AAE;
   color: #fff;
 }
 
@@ -1390,7 +1390,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #009AAE;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1410,7 +1410,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #009AAE;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1424,7 +1424,7 @@ section {
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #1bbd36;
+  border-color:#009AAE;
 }
 
 .contact .php-email-form input {
@@ -1436,7 +1436,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1bbd36;
+  background:#009AAE;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1445,7 +1445,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2ae149;
+  background: #017180;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1582,7 +1582,7 @@ section {
 }
 
 .blog .entry .entry-title a:hover {
-  color: #1bbd36;
+  color:#009AAE;
 }
 
 .blog .entry .entry-meta {
@@ -1630,7 +1630,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #1bbd36;
+  background: #009AAE;
   color: #fff;
   padding: 7px 25px;
   transition: 0.3s;
@@ -1639,7 +1639,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-  background: #1ed33c;
+  background: #009AAE;
 }
 
 .blog .entry .entry-content h3 {
@@ -1710,7 +1710,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #1bbd36;
+  color: #009AAE;
 }
 
 .blog .entry .entry-footer .cats {
@@ -1815,7 +1815,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #1bbd36;
+  color: #009AAE;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -1863,7 +1863,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
   box-shadow: none;
-  border-color: #57e76f;
+  border-color: #009AAE;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -1875,7 +1875,7 @@ section {
 
 .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: #57e76f;
+  border-color: #009AAE;
 }
 
 .blog .blog-comments .reply-form .form-group {
@@ -1886,11 +1886,11 @@ section {
   padding: 8px 20px;
   border: 0;
   border-radius: 4px;
-  background-color: #1bbd36;
+  background-color: #009AAE;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #1ed33c;
+  background-color:#009AAE;
 }
 
 .blog .blog-pagination {
@@ -1920,8 +1920,8 @@ section {
 }
 
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-  background: #1bbd36;
-  border: 1px solid #1bbd36;
+  background: #009AAE;
+  border: 1px solid #009AAE;
   border-radius: 4px;
 }
 
@@ -1983,14 +1983,14 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #1bbd36;
+  background:#009AAE;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: #1ed33c;
+  background: #009AAE;
 }
 
 .blog .sidebar .categories ul {
@@ -2008,7 +2008,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #1bbd36;
+  color: #009AAE;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2038,7 +2038,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #1bbd36;
+  color:#009AAE;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2075,8 +2075,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border: 1px solid #1bbd36;
-  background: #1bbd36;
+  border: 1px solid #009AAE;
+  background:#009AAE;
 }
 
 .blog .sidebar .tags ul a span {
