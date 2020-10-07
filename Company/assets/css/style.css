@@ -1497,7 +1497,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #1bbd36 !important;
+  background-color: #009AAE !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -2096,7 +2096,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #1e1e1e;
+  background: rgb(1, 113, 128);
 }
 
 #footer .footer-top .footer-contact {
@@ -2142,7 +2142,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1ed33c;
+  color:rgb(0, 154, 174);
   font-size: 18px;
   line-height: 1;
 }
@@ -2206,7 +2206,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1bbd36;
+  background:rgb(0, 154, 174);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2214,7 +2214,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #2ae149;
+  background: rgb(0, 154, 174);
 }
 
 #footer .credits {
@@ -2239,7 +2239,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #1bbd36;
+  background: rgb(0, 154, 174);
   color: #fff;
   text-decoration: none;
 }
