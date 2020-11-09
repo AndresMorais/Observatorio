@@ -1,29 +1,42 @@
-.counter {
-    background-color:#f7f7f7;
-    padding: 20px 0;
-    border-radius: 5px;
+#contador {
+    /* margin-top: 100px */
+}
+
+.counter-box {
+    display: block;
+    background: #f6f6f6;
+    /* padding: 40px 20px 37px; */
+    text-align: center
+}
+
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2;
   
 }
 
-.count-title {
-    font-size: 40px;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-bottom: 0;
-    text-align: center;
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px;
+   
 }
 
-.count-text {
-    font-size: 13px;
-    font-weight:bolder;
-    margin-top: 10px;
-    margin-bottom: 0;
-    text-align: center;
-}
 
-.fa-2x {
-    margin: 0 auto;
-    float: none;
-    display: table;
-    color: #4ad1e5;
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff;
+   
 }

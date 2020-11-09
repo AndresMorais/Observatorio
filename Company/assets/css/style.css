@@ -380,13 +380,13 @@ h1, h2, h3, h4, h5, h6 {
   right: 55px;
 }
 
-#hero .carousel-content {
+/* #hero .carousel-content {
   background: rgba(4, 4, 4, 0.7);
   padding: 20px;
   color: #fff;
   -webkit-animation-duration: .5s;
   animation-duration: .5s;
-  border-top: 5px solid #009AAE;
+  border-top: 5px solid #009AAE; */
 }
 
 #hero .carousel-content h2 {
@@ -1236,7 +1236,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1bbd36;
+  color:#00aec3;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -2091,7 +2091,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #111;
+  background: #017180;
 }
 
 #footer .footer-top {
