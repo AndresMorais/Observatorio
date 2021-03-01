@@ -6,6 +6,40 @@
 */
 
 /*--------------------------------------------------------------
+# Carrusel 
+--------------------------------------------------------------*/
+#carrusel {
+ background-color: #009AAE;
+ padding:5px;
+ padding-top:75px;
+
+}
+
+#control_carrusel{
+  margin-bottom:200px;
+  margin-left:150px;
+}
+#control_1 {
+  margin-bottom:200px;
+  margin-right:150px;
+}
+
+/*--------------------------------------------------------------
+# Nube de palabras -Amchar 
+--------------------------------------------------------------*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   
+}
+
+#chartdiv {
+  width:100%;
+  height:250px; 
+  padding-right:10%;
+  }
+
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -96,7 +130,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height:70px;
+  z-index:50;
+  position:absolute;
+  margin-top: -2%;
 }
 
 /*--------------------------------------------------------------
@@ -351,8 +388,8 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 80vh;
+  width: 20%;
+  height:5vh;
   background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   position: relative;
@@ -378,9 +415,9 @@ h1, h2, h3, h4, h5, h6 {
   top: 70px;
   left: 55px;
   right: 55px;
-}
+} 
 
-/* #hero .carousel-content {
+ #hero .carousel-content {
   background: rgba(4, 4, 4, 0.7);
   padding: 20px;
   color: #fff;
@@ -393,10 +430,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 700; */
 }
 
-#hero .btn-get-started {
+  #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -411,18 +448,18 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #009AAE;
-}
+} */
 
 #hero .btn-get-started:hover {
   background:#009AAE;
   color: #fff;
   text-decoration: none;
-}
+}  
 
-#hero .carousel-inner .carousel-item {
+ #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
-}
+} 
 
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-left,
@@ -443,14 +480,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-inner .active.carousel-item-right {
   left: 0;
   transform: translate3d(0, 0, 0);
-}
+} 
 
-#hero .carousel-control-prev, #hero .carousel-control-next {
+ #hero .carousel-control-prev, #hero .carousel-control-next {
   width: 10%;
   opacity: 1;
-}
+} 
 
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
+ #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
   font-size: 36px;
   line-height: 1;
@@ -461,12 +498,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   transition: 0.3s;
   color: rgba(255, 255, 255, 0.5);
-}
+} 
 
-#hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
+ #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.8);
-}
+} 
 
 #hero .carousel-indicators li {
   cursor: pointer;
@@ -483,9 +520,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-indicators li.active {
   opacity: 1;
   background:#009AAE;
-}
+} 
 
-@media (min-width: 1024px) {
+ @media (min-width: 1024px) {
   #hero .carousel-content {
     width: 60%;
   }
@@ -505,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero .carousel-content p {
     font-size: 15px;
   }
-}
+} 
 
 @media (max-height: 500px) {
   #hero {
@@ -614,7 +651,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 30px 20px 40px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -680,6 +717,7 @@ section {
 .services .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
+
 
 .services .iconbox-orange i {
   color: #47aeff;
@@ -785,7 +823,7 @@ section {
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background:rgba(0, 174, 154,0.5);
+  background:rgba(0, 174, 154,0.8);
   padding: 15px;
 }
 
@@ -2092,10 +2130,11 @@ section {
   color: #fff;
   font-size: 14px;
   background: #017180;
+  
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding:30px 0 30px 0;
   background: rgb(1, 113, 128);
 }
 

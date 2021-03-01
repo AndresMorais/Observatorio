@@ -7,6 +7,18 @@
 !(function($) {
   "use strict";
 
+
+  // CARRUSEL
+  $("#carousel").on("mouseenter",function() {
+    $(this).carousel('cycle');
+  }).on("mouseleave", function() {
+    $(this).carousel('pause');
+  });
+
+
+
+  // FIN CARRUSEL
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 2;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
