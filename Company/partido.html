@@ -30,6 +30,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+
+   <!-- ====TABLAS==== -->
+   <!-- <script src="http://d3js.org/d3.v3.min.js"></script>
+   <script src="d3.min.js?v=3.2.8"></script> -->
 </head>
 
 <body>
@@ -183,6 +187,38 @@
       
             </div>
           </section>
+
+<!-- ===== TABLA===== -->
+<!-- <Section>
+  <div>
+    <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+    <!-- <script src="d3.min.js?v=3.2.8"></script>
+
+
+
+<script type="text/javascript"charset="utf-8">
+    d3.text("tablas/ficha_partidos.csv", function(data) {
+        var parsedCSV = d3.csv.parseRows(data);
+
+        var container = d3.select("body")
+            .append("table")
+
+            .selectAll("tr")
+                .data(parsedCSV).enter()
+                .append("tr")
+
+            .selectAll("td")
+                .data(function(d) { return d; }).enter()
+                .append("td")
+                .text(function(d) { return d; });
+    });
+</script>
+</div>  
+</section>   -->
+
+<!-- ===== FIN  TABLA===== -->
+
+         
 
 
 </section>
