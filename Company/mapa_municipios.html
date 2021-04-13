@@ -26,8 +26,27 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
 
+  <!-- box-counter -->
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <link rel=StyleSheet href="infografia/box-counter/box-counter.css" type="text/css">
+  <script src="infografia/box-counter/box-counter.js"></script>
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <!-- amcharts -->
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+   <!-- Infografia -->
+   <link rel="stylesheet" type="text/css" href="infografia/genero/paridad.css">
+
 
   <!-- =======================================================
   * Template Name: Company - v2.1.0
@@ -43,14 +62,9 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <!-- <h1 class="logo mr-auto"><a href="index.html"><span>Com</span>pany</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
       <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.PNG" alt="" class="img-fluid"></a>
 
-       <!--nav-menu -->
-       <nav class="nav-menu d-none d-lg-block">
+      <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Inicio</a></li>
 
@@ -60,7 +74,7 @@
             <ul>
               <li><a href="partido.html">Partidos Politicos</a></li>
               <li><a href="genero_2.html">Género</a></li>
-              <li><a href="http://www.juntaelectoral.gba.gov.ar/leyes-decretos.php" target="_blank">Legislación Electoral</a></li>
+              <li><a href="http://www.juntaelectoral.gba.gov.ar/leyes-decretos.php" target="_blank" >Legislación Electoral</a></li>
               <li><a href="resultados_electorales.html">Resultados Electorales</a></li>
               <li><a href="publicaciones.html">Publicaciones</a></li>
               <li><a href="mapa_municipios.html">Mapa Interactivo de Municipios</a></li>
@@ -70,17 +84,18 @@
           <li><a href="contact.html">Contacto</a></li>
         </ul>
       </nav>
+      <!-- .nav-menu -->
+
+      <div class="header-social-links">
+        <a href="https://twitter.com/migobiernopba" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="https://www.facebook.com/MIGobiernoPBA/" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/migobiernopba/" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
+      </div>
+
+    </div>
+  </header>
   
-  <!-- end nav-menu -->
-
-    <div class="header-social-links">
-      <a href="https://twitter.com/migobiernopba" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
-      <a href="https://www.facebook.com/MIGobiernoPBA/" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
-      <a href="https://www.instagram.com/migobiernopba/" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
-    </div>
-
-    </div>
-  </header><!-- End Header -->
+  <!-- ======End Header====== -->
 
   <main id="main">
 
@@ -99,104 +114,39 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <h1>EN DESARROLLO</h1>
-
-        <!-- <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up">
-            <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
+    <!-- ======= About Us Section ======= -->
+    <section id="team" class="team section-bg" style="padding:15px;"> 
+        <div class="container">
+          <div class="section-title" data-aos="fade-up" style="padding-bottom: 0%;">
+              <h2>MAPA INTERACTIVO DE MUNICIPIOS</h2>
+                <p style="text-align: justify; padding-left:7%; padding-right: 3%;"> 
+                  La provincia de Buenos Aires se compone de 135 municipios. 
+                  En esta sección podés encontrar información sobre las secciones electorales  el intedente/a, 
+                  partido perteneciente y presidente del HCD.
+                </p>             
           </div>
+        </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-item mt-4 mt-lg-0">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-              <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-              <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-              <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-              <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="testimonial-item mt-4">
-              <img src="assets/img/testimonials/testimonials-6.jpg" class="testimonial-img" alt="">
-              <h3>Emily Harison</h3>
-              <h4>Store Owner</h4>
-              <p>
-                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Eius ipsam praesentium dolor quaerat inventore rerum odio. Quos laudantium adipisci eius. Accusamus qui iste cupiditate sed temporibus est aspernatur. Sequi officiis ea et quia quidem.
-                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-              </p>
-            </div>
-          </div>
-
-        </div> -->
-
+<!-- ==========TABLERO MAPA INTERACTIVO=========== -->
+      <div style="margin-left: 10%; margin-top: 3%;">
+        <div class='tableauPlaceholder' id='viz1618325490018' style='position: relative'><noscript><a href='#'><img alt='Mapa Municipios ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ma&#47;mapa_municipios&#47;MapaMunicipios&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='mapa_municipios&#47;MapaMunicipios' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ma&#47;mapa_municipios&#47;MapaMunicipios&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1618325490018');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='1327px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='1327px';} else { vizElement.style.width='100%';vizElement.style.height='2577px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+  
 
+    
+
+
+
+
+
+    <!-- End About Us Section -->
   </main>
-  <!-- End #main -->
- 
+  
   <!-- =======End #main=====-->
 
-   <!-- ======= Footer ======= -->
-   <footer id="footer" style="height:5%">
+  <!-- ======= Footer ======= -->
+  <footer id="footer" style="height:5%">
 
     <footer id="footer">
 
@@ -224,7 +174,7 @@
                     <ul>
                       <li><i class="bx bx-chevron-right"></i> <a href="index.html">Inicio</a></li>
                       <li><i class="bx bx-chevron-right"></i> <a href="sobre_ope.html">Sobre OPE</a></li>
-                      <li><i class="bx bx-chevron-right"></i> <a href="tableros.html">Tableros</a></li>
+                      <li><i class="bx bx-chevron-right"></i> <a href="index.html">Ejes de Trabajo</a></li>
                       <!-- <li><i class="bx bx-chevron-right"></i> <a href="novedades.html">Novedades</a></li> -->
                       <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contacto</a></li>
                     </ul>
@@ -240,14 +190,14 @@
                       <li><i class="bx bx-chevron-right"></i> <a href="publicaciones.html">Publicaciones</a></li>
                       <li><i class="bx bx-chevron-right"></i> <a href="mapa_municipios.html">Mapa Interactivo de Municipios</a></li>
                     </ul>
-                  </div>                   
+                  </div>                     
           </div>
               Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>  
         </div>         
       </div> 
   </footer>
   
-  <!-- ==========End Footer======== -->
+  <!--===== End Footer======= -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
