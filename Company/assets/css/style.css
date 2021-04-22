@@ -6,6 +6,71 @@
 */
 
 
+/*--------------------------------------------------------------
+# Carrusel Partidos politicos
+--------------------------------------------------------------*/
+<style>
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #F7F7F7;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide p{
+color:#009AAE;
+position: absolute;
+width: 100;% 
+font-weight: 300;
+font-size:0px;
+top:50%;
+left:50%;
+text-align: center;
+transform:translate(-50%,-50%);   
+} 
+
+.swiper-slide:hover p{
+padding: 25px;
+font-size:25px;
+color:#fcfdfd;
+cursor: pointer;
+background:#009AAE;
+}
+
+
 
 /*--------------------------------------------------------------
 # Carrusel HOME
@@ -18,12 +83,12 @@
 }
 
 #control_carrusel{
-  margin-bottom:230px;
-  margin-left:150px;
+  margin-bottom:170px;
+  margin-left:15px;
 }
 #control_1 {
-  margin-bottom:230px;
-  margin-right:150px;
+  margin-bottom:170px;
+  margin-right:15px;
 }
 
 /*--------------------------------------------------------------
@@ -822,6 +887,19 @@ section {
   position: absolute;
   left: 30px;
   right: 30px;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background:rgba(0, 174, 154,0.8);
+  padding: 15px;
+}
+/* INDEX-HOME */
+
+.portfolio .portfolio-item .portfolio-info #genero{
+  opacity: 0;
+  position:relative;
+  left: 30px;
+  right: 120px;
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
